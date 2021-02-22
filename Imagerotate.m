@@ -1,11 +1,15 @@
 % This program rotates given image.!
 
-% Görüntünün girilmesi ve gösterimi.
+% Görüntünün girilmesi.
 im = imread('Image.png');
-figure, imshow(im);
+
+% Sensor verilerinin girilmesi.
+sx = input('Enter pitch value.');
+sy = input('Enter roll value.');
+sz = input('Enter azimuth value.');
 
 % Rotasyon matrisinin oluşturulması.
-R_rot = R_x(0.5)*R_y(-9)*R_z(-13);
+R_rot = R_x(sx)*R_y(sy)*R_z(sz);
 
 R_2d  = [   R_rot(1,1)  R_rot(1,2) 0; 
             R_rot(2,1)  R_rot(2,2) 0;
