@@ -1,5 +1,5 @@
-# Image-Stabilizing
-Image Stabilizing using MATLAB
+# Image-Stabilization
+Image Stabilization using MATLAB
 
 Proje kamera ile görüntü alırken oluşabilen titreme, kayma gibi sorunları kullanılan kameranın veya kameranın bağlı olduğu platformun bağlı olduğu sensörler aracılığıyla görüntü yakalanırken oluşan Euler açılarını alarak görüntünün bilgisayar ortamında stabil hale getirilmesi amaçlanmıştır.
 
